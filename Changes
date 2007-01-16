@@ -1,0 +1,9 @@
+Revision history for Perl extension AutoLoader
+
+5.62  Mon Jan 15 15:13 2007
+  - First release to CPAN. Previously available in core perl.
+  - Fixes an obscure bug in 5.61/5.60 which would result in infinite
+    recursion if a module's %INC element is changed to a different
+    file name and AutoLoader's AUTOLOAD is used by the module.
+    (This can happen with PAR.)
+
