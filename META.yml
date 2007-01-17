@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                AutoLoader
-version:             5.62
+version:             5.63
 abstract:            load subroutines only on demand
 license:             perl
 generated_by:        ExtUtils::MakeMaker version 6.31

@@ -12,6 +12,7 @@ WriteMakefile(
   'PREREQ_PM' => {},
   'ABSTRACT_FROM' => 'lib/AutoLoader.pm',
   'AUTHOR' => 'Steffen Mueller <smueller@cpan.org>',
+  'INSTALLDIRS' => 'perl',
 );
 
 __END__
