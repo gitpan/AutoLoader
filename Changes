@@ -1,5 +1,8 @@
 Revision history for Perl extension AutoLoader
 
+5.64  Wed Dec 26 16:08 2007
+  - Include AutoSplit in the distribution.
+
 5.63  Mon Jan 17 14:17 2007
   - Adding INSTALLDIRS => 'perl' to Makefile.PL
 
