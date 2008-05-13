@@ -1,11 +1,11 @@
 --- #YAML:1.0
 name:                AutoLoader
-version:             5.64
+version:             5.65
 abstract:            load subroutines only on demand
 license:             perl
 author:              
     - Steffen Mueller <smueller@cpan.org>
-generated_by:        ExtUtils::MakeMaker version 6.42
+generated_by:        ExtUtils::MakeMaker version 6.44
 distribution_type:   module
 requires:     
 meta-spec:
