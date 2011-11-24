@@ -1,25 +1,24 @@
---- #YAML:1.0
-name:               AutoLoader
-version:            5.71
-abstract:           load subroutines only on demand
+---
+abstract: 'load subroutines only on demand'
 author:
-    - Steffen Mueller <smueller@cpan.org>
-license:            perl
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
+  - 'Steffen Mueller <smueller@cpan.org>'
 build_requires:
-    ExtUtils::MakeMaker:  0
-requires:  {}
-resources:
-    bugtracker:   http://rt.perl.org/perlbug/
-    MailingList:  http://lists.cpan.org/showlist.cgi?name=perl5-porters
-    repository:   git://perl5.git.perl.org/perl.git perl-git
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+  ExtUtils::MakeMaker: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.58, CPAN::Meta::Converter version 2.110930'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: AutoLoader
+no_index:
+  directory:
+    - t
+    - inc
+requires: {}
+resources:
+  bugtracker: http://rt.perl.org/perlbug/
+  x_MailingList: http://lists.cpan.org/showlist.cgi?name=perl5-porters
+version: 5.72
