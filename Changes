@@ -1,5 +1,10 @@
 Revision history for Perl extension AutoLoader
 
+5.73  Tue Oct 16 16:45 2012
+  - AutoLoader::autoload_sub
+    Same as actually autoloading a function, but doesn't
+    execute it. Cf. documentation for details.
+
 5.72  Thu Nov 24 19:15 2011
   - Update FSF address.
   - Fix META.yml info on upstream.
