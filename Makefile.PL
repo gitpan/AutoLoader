@@ -12,7 +12,7 @@ WriteMakefile(
   'PREREQ_PM' => {},
   'ABSTRACT_FROM' => 'lib/AutoLoader.pm',
   'AUTHOR' => 'Steffen Mueller <smueller@cpan.org>',
-  'INSTALLDIRS' => 'perl',
+  'INSTALLDIRS' => ($] < 5.012 ? 'perl' : 'site'),
   META_MERGE => {
       resources => {
           bugtracker  => 'http://rt.perl.org/perlbug/',

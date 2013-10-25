@@ -1,5 +1,8 @@
 Revision history for Perl extension AutoLoader
 
+5.74  Fri Oct 25 19:08 2013
+  - Makefile.PL: Set installdirs to "site" on Perl >= 5.12
+
 5.73  Tue Oct 16 16:45 2012
   - AutoLoader::autoload_sub
     Same as actually autoloading a function, but doesn't
